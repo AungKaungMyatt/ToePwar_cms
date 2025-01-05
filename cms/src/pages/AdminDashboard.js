@@ -12,8 +12,8 @@ function AdminDashboard() {
   return (
     <div>
       <h1>Admin Dashboard</h1>
-      <button onClick={() => navigate("/users")}>Manage Users</button>
       <button onClick={handleLogout}>Logout</button>
+      <button onClick={() => navigate("/users")}>Manage Users</button>
     </div>
   );
 }
