@@ -2,6 +2,7 @@
   "name": "cms",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://toepwar.onrender.com",
   "dependencies": {
     "axios": "^1.7.9",
     "cors": "^2.8.5",
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
